@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_marginRight="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/etFirstValue"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter First Number:"
+        android:inputType="text"
+        android:textColorHint="#9C27B0"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etSecondValue"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Second Number:"
+        android:inputType="text"
+        android:textColorHint="#9C27B0"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Your Result:    "
+        android:textColor="#B11212"
+        android:textColorHint="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/add"
+        app:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/subtract"
+        app:backgroundTint="#FFC107" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/multiply"
+        app:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/divide"
+        app:backgroundTint="#B92B2D30" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Made with ❤️ by Akash Maji"
+        android:textColor="#E91E63"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="www.akashmaji.me" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        app:backgroundTint="#CC1818" />
+
+</LinearLayout>
