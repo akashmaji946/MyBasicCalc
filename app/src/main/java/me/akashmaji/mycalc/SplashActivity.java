@@ -16,7 +16,7 @@ public class SplashActivity extends AppCompatActivity {
         Thread thread = new Thread() {
             public void run(){
                 try {
-                    sleep(2000);
+                    sleep(4000);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 } finally {
